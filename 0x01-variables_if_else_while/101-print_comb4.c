@@ -25,6 +25,7 @@ int main(void)
 					putchar('0' + num3);
 					putchar('0' + num2);
 					putchar('0' + num1);
+
 					if (num1 + num2 + num3 != 9 + 8 + 7)
 					{
 						putchar(',');
@@ -35,7 +36,7 @@ int main(void)
 			}
 			num2++;
 		}
-		num3++;
+		num3++;		
 	}	
 	putchar('\n');
 	return (0);
