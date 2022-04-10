@@ -8,36 +8,35 @@
 */
 int main(void)
 {
-	int num1;
-	int num2;
-	int num3 = 0;
+	int c;
+	int d;
+	int e = 0;
 
-	while (num3 < 10)
+	while (e < 10)
 	{
-		num2 = 0;
-		while (num2 < 10)
+		d = 0;
+		while (d < 10)
 		{
-			num1 = 0;
-			while (num1 < 10)
+			c = 0;
+			while (c < 10)
 			{
-				if (num1 != num2 && num2 != num3 && num3 < num2 && num2 < num1)
+				if (c != d && d != e && e < d && d < c)
 				{
-					putchar('0' + num3);
-					putchar('0' + num2);
-					putchar('0' + num1);
-
-					if (num1 + num2 + num3 != 9 + 8 + 7)
+					putchar('0' + e);
+					putchar('0' + d);
+					putchar('0' + c);
+					if (c + d + e != 9 + 8 + 7)
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
-				num1++;
+				c++;
 			}
-			num2++;
+			d++;
 		}
-		num3++;		
-	}	
+		e++;
+	}
 	putchar('\n');
 	return (0);
 }
