@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-	char a = 0;
+	int num = 0;
 
-	while (a <= 9)
+	while (num <= 9)
 	{
-		putchar(a);
-		 a = a + 1;
+		printf("%d", num);
+		num = num + 1;
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
