@@ -1,13 +1,23 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "main.h"
 
 /**
-* main - prints is posetive, negative
-* or zero
-* Return: returns zero if program exits well.
-*/
+ * main - prints _putchar
+ *
+ * Description: prints _putchar
+ *
+ * Return: 0 (Success)
+ */
+
 int main(void)
 {
-	write(1, "_putchar\n", 13);
+	char text[9] = "_putchar";
+	int i = 0;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(text[i]);
+	}
+	_putchar('\n');
+
 	return (0);
 }
