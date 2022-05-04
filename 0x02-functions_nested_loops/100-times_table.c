@@ -1,4 +1,7 @@
 #include "main.h"
+#include <unistd.h>
+
+void print_times_table(int n);
 
 /**
  * print_times_table - Prints the times table of the input,
