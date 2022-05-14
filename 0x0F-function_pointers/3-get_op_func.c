@@ -1,4 +1,3 @@
-@@ -0,0 +1,32 @@
 /*
  * File: 3-get_op_func.c
  * Author: Yovo Koffi Vianney
